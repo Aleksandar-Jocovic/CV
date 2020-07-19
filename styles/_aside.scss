@@ -1,5 +1,5 @@
 aside {
-  padding: 30px 20px;
+  padding: 30px 23px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +7,7 @@ aside {
   width: 450px;
   color: $dark;
   ul {
-    margin-bottom: 45px;
+    margin-bottom: 55px;
     align-self: flex-start;
   }
   
@@ -17,7 +17,7 @@ aside {
     font-family: 'Poppins', sans-serif;
     border-bottom: 1px solid rgba($color:$dark, $alpha: 0.2);
     padding: 5px 0;
-    width: 278px;
+    width: 272px;
 
     p {
       display: inline-block;

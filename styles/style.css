@@ -104,7 +104,7 @@ header h2 {
 }
 
 aside {
-  padding: 30px 20px;
+  padding: 30px 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +121,7 @@ aside {
 }
 
 aside ul {
-  margin-bottom: 45px;
+  margin-bottom: 55px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -132,7 +132,7 @@ aside ul li {
   font-family: 'Poppins', sans-serif;
   border-bottom: 1px solid rgba(32, 38, 49, 0.2);
   padding: 5px 0;
-  width: 278px;
+  width: 272px;
 }
 
 aside ul li p {
@@ -228,6 +228,7 @@ section {
   width: 100%;
   overflow: hidden;
   position: relative;
+  margin-bottom: 3px;
 }
 
 .work h3 {
