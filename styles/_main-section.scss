@@ -1,0 +1,129 @@
+section {
+  background: $light;
+  padding: 50px 40px 40px 40px;
+}
+
+.work-item {
+  margin-top: -10px;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 32px !important;
+    left: 0px;
+    z-index: 3;
+  }
+  h5 {
+    font-family: 'Poppins', sans-serif;
+    color: $dark;
+    font-weight: 400;
+    margin-left: 45px;
+    z-index: 1;
+  }
+  h5 span {
+    background: $dark;
+    color: $light;
+    margin-left: 25px;
+    padding: 0 10px;
+  }
+}
+.vertical-line-mask {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  width: 10px;
+  height: 310%;
+  background: $light;
+}
+
+.work {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $dark;
+    position: relative;
+    top: 25px;
+  }
+  h3 {
+     padding-left: 30px;
+  }
+  h4 {
+    padding-left: 40px;
+    opacity: 0.9;
+  }
+  p {
+    padding-left: 40px;
+  }
+}
+
+.vertical-line {
+  position: absolute;
+  top: 93px;
+  left: 6px;
+  width: 2px;
+  height: 100%;
+  background: $dark;
+  z-index: 0;
+}
+
+.skills {
+  margin-top: 40px;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $dark;
+    position: relative;
+    top: 25px;
+  }
+  h3 {
+     padding-left: 30px;
+  }
+    h4 {
+    opacity: 0.9;
+    margin-bottom: 2px;
+  }
+}
+
+.skills-items {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+.skills-item {
+  margin-bottom: 10px;
+}
+
+.progress {
+  position: relative;
+  width: 80%;
+  height: 10px;
+  border: 1px solid $dark;
+}
+
+.progress:before {
+  content: '';
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $dark;
+}
+
+.skills-item:nth-child(2) .progress:before {
+  width: 90%;
+}
+.skills-item:nth-child(3) .progress:before {
+  width: 80%;
+}.skills-item:nth-child(4) .progress:before {
+  width: 50%;
+}.skills-item:nth-child(5) .progress:before {
+  width: 60%;
+}.skills-item:nth-child(6) .progress:before {
+  width: 60%;
+}
