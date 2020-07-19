@@ -42,11 +42,11 @@ main {
 
 header {
   width: 100%;
-  height: 300px;
+  height: 150px;
   background: #202631;
   color: #e7e7e7;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
   font-family: 'Russo One', sans-serif;
 }
 
@@ -120,7 +120,7 @@ aside {
 }
 
 aside ul {
-  margin-bottom: 65px;
+  margin-bottom: 45px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -172,11 +172,15 @@ img {
 
 section {
   background: #e7e7e7;
-  padding: 50px 20px 40px 20px;
+  padding: 20px;
+}
+
+.about-me-header {
+  margin-top: -10px;
 }
 
 .work-item {
-  margin-top: -10px;
+  margin-top: -15px;
   position: relative;
 }
 
@@ -240,7 +244,7 @@ section {
 
 .vertical-line {
   position: absolute;
-  top: 93px;
+  top: 85px;
   left: 6px;
   width: 2px;
   height: 100%;
