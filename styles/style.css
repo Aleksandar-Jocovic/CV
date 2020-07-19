@@ -132,7 +132,7 @@ aside ul li {
   font-family: 'Poppins', sans-serif;
   border-bottom: 1px solid rgba(32, 38, 49, 0.2);
   padding: 5px 0;
-  width: 272px;
+  width: 267px;
 }
 
 aside ul li p {
@@ -141,12 +141,12 @@ aside ul li p {
 }
 
 aside ul li span {
-  margin-left: 25px;
+  margin-left: 20px;
   opacity: 0.8;
 }
 
 .info-list ul li span {
-  margin-left: 18px;
+  margin-left: 15px;
 }
 
 .links-list ul li svg {
