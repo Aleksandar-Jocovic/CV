@@ -120,7 +120,7 @@ aside {
 }
 
 aside ul {
-  margin-bottom: 30px;
+  margin-bottom: 65px;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
@@ -172,7 +172,7 @@ img {
 
 section {
   background: #e7e7e7;
-  padding: 50px 40px 40px 40px;
+  padding: 50px 20px 40px 20px;
 }
 
 .work-item {
