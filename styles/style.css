@@ -113,7 +113,7 @@ header h2 {
 }
 
 aside {
-  padding: 30px 23px;
+  padding: 30px 23px 0 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,6 +127,7 @@ aside {
   background: #d4cece;
   width: 450px;
   color: #202631;
+  padding-bottom: -50px;
 }
 
 aside ul {
@@ -156,6 +157,10 @@ aside ul li span {
 
 .info-list ul li span {
   margin-left: 15px;
+}
+
+.links-list {
+  /* height: 190px; */
 }
 
 .links-list ul li svg {

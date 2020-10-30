@@ -1,11 +1,12 @@
 aside {
-  padding: 30px 23px;
+  padding: 30px 23px 0 23px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: $medium;
   width: 450px;
   color: $dark;
+  padding-bottom: -50px;
   ul {
     margin-bottom: 55px;
     align-self: flex-start;
@@ -37,6 +38,7 @@ aside {
 }
 
 .links-list {
+  /* height: 190px; */
   ul li { 
     //border-bottom: unset;
     svg {
