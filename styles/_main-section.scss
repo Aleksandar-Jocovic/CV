@@ -99,11 +99,14 @@ section {
 
 .skills-items {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  margin-left: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 20px 20px;
+
 }
 
-
+.skills h4 {
+  text-transform: capitalize;
+}
 
 .skills-item {
   margin-bottom: 10px;

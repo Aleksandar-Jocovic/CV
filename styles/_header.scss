@@ -2,12 +2,15 @@
 
 header {
   width: 100%;
-  height: 115px;
+  height: 215px;
   background: $dark;
   color: $light;
   text-align: center;
-  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: 'Russo One', sans-serif;
+
   h1 {
     font-size: 2em;
     letter-spacing: 4px;
