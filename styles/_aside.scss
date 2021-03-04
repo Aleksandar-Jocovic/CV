@@ -1,64 +1,62 @@
 aside {
-  padding: 30px 23px 0 23px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: $medium;
-  width: 450px;
-  color: $dark;
-  padding-bottom: -50px;
-  ul {
-    margin-bottom: 55px;
-    align-self: flex-start;
-  }
-  
-  ul li {
-    list-style: none;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    border-bottom: 1px solid rgba($color:$dark, $alpha: 0.2);
-    padding: 5px 0;
-    width: 267px;
+	padding: 30px 23px 0 23px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: $medium;
+	width: 450px;
+	color: $dark;
+	padding-bottom: -50px;
+	ul {
+		margin-bottom: 55px;
+		align-self: flex-start;
+	}
 
-    p {
-      display: inline-block;
-      opacity: 0;
-      
-    }
-    span {
-      margin-left: 20px;
-      opacity: 0.8;
-    }
-  }
+	ul li {
+		list-style: none;
+		font-size: 15px;
+		font-family: 'Poppins', sans-serif;
+		border-bottom: 1px solid rgba($color: $dark, $alpha: 0.2);
+		padding: 5px 0;
+		width: 267px;
+
+		p {
+			display: inline-block;
+			opacity: 0;
+		}
+		span {
+			margin-left: 20px;
+			opacity: 0.8;
+		}
+	}
 }
 .info-list {
-  ul li span {
-    margin-left: 15px;
-  }
+	ul li span {
+		margin-left: 15px;
+	}
 }
 
 .links-list {
-  /* height: 190px; */
-  ul li { 
-    //border-bottom: unset;
-    svg {
-      position: relative;
-      top: 3px;
-      width: 30px;
-      height: 30px;
-      fill: $dark;
-    }
-    a {
-      position: relative;
-      top: -7px;
-      color: $dark;
-      margin-left: 48px;
-    }
-}
+	/* height: 190px; */
+	ul li {
+		//border-bottom: unset;
+		svg {
+			position: relative;
+			top: 3px;
+			width: 30px;
+			height: 30px;
+			fill: $dark;
+		}
+		a {
+			position: relative;
+			top: -7px;
+			color: $dark;
+			margin-left: 48px;
+		}
+	}
 }
 img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 30px;
+	width: 200px;
+	height: 220px;
+	margin-bottom: 30px;
 }
